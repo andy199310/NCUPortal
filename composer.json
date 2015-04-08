@@ -1,5 +1,5 @@
 {
-    "name": "weigreen/ncu-portal",
+    "name": "weigreen/ncuportal",
     "require": {
         "php": ">=5.4.0",
         "iignatov/lightopenid": "~1.0"
