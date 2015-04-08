@@ -1,5 +1,9 @@
 {
     "name": "weigreen/ncuportal",
+    "type": "library",
+    "description": "ncu portal library",
+    "keywords": ["login", "ncu", "portal"],
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "iignatov/lightopenid": "~1.0"

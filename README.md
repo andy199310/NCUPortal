@@ -55,6 +55,13 @@ if($ncuPortal->checkLoginValidate()){
 
 If you found bugs, please contact me at issue. thanks :)
 
+## Links
+
+* [iignatov/LightOpenID](https://github.com/iignatov/LightOpenID) -
+  Library used for openid.
+* [OpenID Dev Specifications](http://openid.net/developers/specs/) -
+  documentation for the OpenID extensions and related topics.
+
 ## License
 
 NCUPortal is licensed under the [MIT License](http://opensource.org/licenses/MIT).
