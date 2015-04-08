@@ -1,6 +1,6 @@
 # NCU portal login
 
-NCUPortal is a library providing an easier and expressive way to use -[NCU Prtal](https://portal.ncu.edu.tw) to let users login to your application.
+NCUPortal is a library providing an easier and expressive way to use [NCU Portal](https://portal.ncu.edu.tw) to let users login to your application.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ $ncuPortal = new NCUPortal('your-application-domain');
 $ncuPortal->getAuthUrl('call-back-url');
 
 ```
-PS: callback url is used when user login on [NCU Prtal](https://portal.ncu.edu.tw) and will redirect to callback url
+PS: callback url is used when user login on [NCU Portal](https://portal.ncu.edu.tw) and will redirect to callback url
 
 Second phase (callback)
 ```php
