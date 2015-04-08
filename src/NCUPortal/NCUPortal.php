@@ -38,29 +38,15 @@ class NCUPortal{
 		return $this->openID->authUrl();
 	}
 
-	// when return call this function	
-	public function checkLogin(){
-		if ($this->openID->mode) {
-			$acct = substr ($this->openID->identity, strlen($this->netidprefix));
-   		echo $this->openID->validate() ? 'Logged in.' : 'Failed!';
- 		}else{
- 			echo 'no';
- 		}
+	// check is login is validate or not(use 1 time)
+	public function checkLoginValidate(){
+		return $this->openID->validate();
 	}
 
+	// get login account
+	public function getLoginAccount(){
+		$account = substr ($this->openID->identity, strlen($this->netIDPrefix));
 
-
-	public function login(){
-		$openid = new LightOpenID($this->hostDomain);
+		return $account;
 	}
-
-	public function hihi(){
-		return $this->hostDomain;
-	}
-
-  public static function world()
-  {
-  	$openid = new LightOpenID('my-host.example.org');
-    return 'Hello World, Composer!';
-  }
 }
