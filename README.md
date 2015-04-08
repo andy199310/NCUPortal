@@ -7,18 +7,12 @@ NCUPortal is a library providing an easier and expressive way to use [NCU Portal
 - PHP >=5.4
 
 ## Installation
-Add this to your composer.json, require and *repositories*
+Add this to your composer.json.
 
 ```json
 "require": {
-  "weigreen/ncuportal": "dev-master"
-},
-"repositories": [
-	{
-		"type": "vcs",
-		"url": "https://github.com/andy199310/NCUPortal.git"
-	}
-	]
+  "weigreen/ncuportal": "v1.0.0"
+}
 ```
 
 ## Examples
